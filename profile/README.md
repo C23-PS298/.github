@@ -11,7 +11,7 @@
 ## Meet Our Team
 **Team ID: C23-PS298**
 
-Hi Folks!👋 We are from C23-PS298. We consist of 6 people and these are my team members:
+Hi Folks!👋 We are from C23-PS298. We consist of 6 people and these are our team members:
 
 |Name|Bangkit ID|Learning Path|LinkedIn
 |--|--|--|--
