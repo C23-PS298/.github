@@ -22,6 +22,12 @@ Hi Folks!👋 We are from C23-PS298. We consist of 6 people and these are our te
 |Adzano Elang Saputro|C125DKX4600|Cloud Computing|[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adzanoelang/)|
 |Jenyta Primaranti|C168DSY2383|Cloud Computing|[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jenytaprimaranti/)|
 
+**Our Team Advisors**
+|Name|Advisor ID|Learning Path|LinkedIn
+|--|--|--|--
+|Dessy Novita|B23-A114|Machine Learning, Business/Commerce/Ideation|[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dessy-novita-668a4778/)|
+|Alpan Ibrahim|B23-A369|Project Management, Business/Commerce/Startup, Ideation/UI & UX|[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alpan-ibrahim-1951b7181/)|
+
 ## Our Theme 
 🔰Digital Government Transformation
 
