@@ -52,5 +52,12 @@ The object detection flowchart begins with data acquisition and dataset creation
 <img src="https://github.com/C23-PS298/.github/blob/main/profile/img/cloud_architecture.png">
 
 For our backend services, we deploy them into a few different products in the google cloud platform. We use App engine to deploy our restful API services. Also we use Compute Engine instances. First, we use compute engine to host our sql database service. Second, we use compute engine to host our backend streaming services. And lastly for machine learning backend. Our backend streaming service store data on Storage Bucket that later accessed by our machine learning backend for detection.
+
+## API Documentation
+
+For API Documentation, you can refer to one of these:
+[SpreadSheet](https://docs.google.com/spreadsheets/d/1GCcjG5RSXkoDq9XkSQIgPpwpn7zdazr5xilzSL7uja0/edit)
+[Postman](https://documenter.getpostman.com/view/26396011/2s93shz9Xd)
+[Swagger](https://c23-ps298.github.io/sabo-apidoc/)
 	
 </div>
