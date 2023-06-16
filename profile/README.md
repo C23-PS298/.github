@@ -1,12 +1,13 @@
 <div align="center">
 	<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Cover_SABO.png"/>
-	<h3 align="center">SaBo - Smart Border Security App</h3>
+	<h1 align="center">SaBo - Smart Border Security App</h1>
 	<p align="center">
 		National security and defense are very important for the country and its people, especially since we know that Indonesia is a big country. Therefore, good facilities are needed to guard the border areas in Indonesia because there are still many violations in the border areas, such as migration and illegal smuggling of goods. That's where SaBo came to help!
 		<br />
+		<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Product_Features.png">
 		<a href="#"><strong>Try Our App📲</strong></a>
 	</p>
-</div>
+
 
 ## Meet Our Team
 **Team ID: C23-PS298**
@@ -34,8 +35,22 @@ Hi Folks!👋 We are from C23-PS298. We consist of 6 people and these are our te
 ## Story Behind How We Come Up to This Idea
 Indonesia is a massive country that shares a land border with three neighboring countries: Malaysia, Timor-Leste, and Papua New Guinea. In total, it stretches over 3.151 km long. This very long border makes it difficult to guard and maintain its security. The Indonesian government always tries to keep the border safe and under control, but in some cases, there are also a lot of illegal activities that occur outside of the authority's knowledge. For instance, in 2023, two illegal Indonesian migrant workers were caught crossing the non-procedural path in Badau District, Kapuas Hulu, West Kalimantan, intending to work in Malaysian palm plantations. This is due to the lack of human and technological resources available at the guard posts. It is important to keep in mind that the current surveillance system is still insufficient because only three soldiers take turns to conduct surveillance every 24 hours. National security and defense are very important; therefore, good facilities are needed to guard the border areas in Indonesia. A solution is needed to improve border control and surveillance at the national border to prevent illegal activities and ensure the safety and security of the region; hence, we create a system that can detect objects and applications that provide notifications related to violations at the border.
 
-## ML Models
+## App Mockups
+<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Product%20Features.png">
+<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Product%20Features2.png">
+<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Product%20Features3.png">
+<img src="https://github.com/C23-PS298/.github/blob/main/profile/img/Product%20Features4.png">
 
+
+## ML Models
+- Process Flow of Object Detection Development🔃
+![SaBo smart border security system](https://github.com/C23-PS298/machine-learning/assets/77234852/71e3a80d-ec32-40b1-a1cf-83b73b6e436d)
+
+The object detection flowchart begins with data acquisition and dataset creation. If videos are available, frames are extracted. Otherwise, captured frames/images are used directly. The YOLOv8 model detects objects in the frames/images and converts dataset annotations to a compatible format. The model is then trained to improve object detection. Detected objects are marked with bounding boxes during frame/image processing, and annotated frames/images are merged to generate the final video output. The flowchart concludes with the completion of the object detection process and video output generation.
 
 ## Cloud Architecture
 <img src="https://github.com/C23-PS298/.github/blob/main/profile/img/cloud_architecture.png">
+
+For our backend services, we deploy them into a few different products in the google cloud platform. We use App engine to deploy our restful API services. Also we use Compute Engine instances. First, we use compute engine to host our sql database service. Second, we use compute engine to host our backend streaming services. And lastly for machine learning backend. Our backend streaming service store data on Storage Bucket that later accessed by our machine learning backend for detection.
+	
+</div>
